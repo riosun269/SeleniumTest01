@@ -25,7 +25,7 @@ public class SQLConnector {
 		Class.forName("com.mysql.jdbc.Driver");
 		
 		//Create Connection to DB
-		Connection con = DriverManager.getConnection(dbUrl,username,password);
+		Connection con = DriverManager.getConnections(dbUrl,username,password);
 		
 		//Create Statement Object
 		Statement stmtStatement = con.createStatement();
