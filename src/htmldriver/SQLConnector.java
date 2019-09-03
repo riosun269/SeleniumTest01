@@ -38,6 +38,7 @@ public class SQLConnector {
 			String myName = rSet.getString(1);
 			String myAge = rSet.getString(2);
 			System.out.println(myName + "  " + myAge);
+			System.out.println("----------------");
 		}
 		
 		//closing DB connection
